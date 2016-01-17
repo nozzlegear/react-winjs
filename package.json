@@ -1,6 +1,6 @@
 {
   "name": "react-winjs",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "React wrapper around WinJS's controls",
   "main": "react-winjs.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react": "0.13.x",
+    "react": "0.14.x",
     "winjs": "4.4.x"
   },
   "devDependencies": {
