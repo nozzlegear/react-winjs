@@ -2352,7 +2352,7 @@ function defineControl(options) {
 
 var hostEl = document.createElement("div");
 function renderRootlessComponent(component) {
-    var html = ReactDOM.renderToStaticMarkup(component);
+    var html = React.renderToStaticMarkup(component);
     hostEl.innerHTML = html;
     var element = hostEl.firstElementChild;
     hostEl.removeChild(element);
