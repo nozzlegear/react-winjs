@@ -1,5 +1,6 @@
 ﻿var React = require('react');
 var ReactDOM = require("react-dom");
+var WinJS = require("winjs");
 
 //
 // Implementation Overview
