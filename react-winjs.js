@@ -1,5 +1,6 @@
 ﻿var React = require('react');
 var ReactDOM = require("react-dom");
+var ReactServer = require("react-dom/server");
 var WinJS = require("winjs");
 
 //
@@ -2353,7 +2354,7 @@ function defineControl(options) {
 
 var hostEl = document.createElement("div");
 function renderRootlessComponent(component) {
-    var html = React.renderToStaticMarkup(component);
+    var html = ReactServer.renderToStaticMarkup(component);
     hostEl.innerHTML = html;
     var element = hostEl.firstElementChild;
     hostEl.removeChild(element);
